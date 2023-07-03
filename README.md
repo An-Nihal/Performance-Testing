@@ -31,7 +31,7 @@ The following tests were performed:
 - Average TPS for Total Samples: ~750
 - Total Concurrent API Requests: 78000
 
-6.1400 Concurrent Requests with 10 Loop Count:
+6. 1400 Concurrent Requests with 10 Loop Count:
 - Average TPS for Total Samples: ~578
 - Total Concurrent API Requests: 84000
 
