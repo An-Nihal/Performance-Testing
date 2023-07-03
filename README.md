@@ -11,34 +11,34 @@ The performance tests were conducted using JMeter with different levels of concu
 
 The following tests were performed:
 
-10 Concurrent Requests with 10 Loop Count:
+1. 10 Concurrent Requests with 10 Loop Count:
+- Average Transactions Per Second (TPS) for Total Samples: ~29
+- Total Concurrent API Requests: 600
 
-Average Transactions Per Second (TPS) for Total Samples: ~29
-Total Concurrent API Requests: 600
-100 Concurrent Requests with 10 Loop Count:
+2. 100 Concurrent Requests with 10 Loop Count:
+- Average TPS for Total Samples: ~202
+- Total Concurrent API Requests: 6000
 
-Average TPS for Total Samples: ~202
-Total Concurrent API Requests: 6000
-500 Concurrent Requests with 10 Loop Count:
+3. 500 Concurrent Requests with 10 Loop Count:
+- Average TPS for Total Samples: ~758
+- Total Concurrent API Requests: 30000
 
-Average TPS for Total Samples: ~758
-Total Concurrent API Requests: 30000
-1000 Concurrent Requests with 10 Loop Count:
+4. 1000 Concurrent Requests with 10 Loop Count:
+- Average TPS for Total Samples: ~570
+- Total Concurrent API Requests: 60000
 
-Average TPS for Total Samples: ~570
-Total Concurrent API Requests: 60000
-1300 Concurrent Requests with 10 Loop Count:
+5. 1300 Concurrent Requests with 10 Loop Count:
+- Average TPS for Total Samples: ~750
+- Total Concurrent API Requests: 78000
 
-Average TPS for Total Samples: ~750
-Total Concurrent API Requests: 78000
-1400 Concurrent Requests with 10 Loop Count:
+6.1400 Concurrent Requests with 10 Loop Count:
+- Average TPS for Total Samples: ~578
+- Total Concurrent API Requests: 84000
 
-Average TPS for Total Samples: ~578
-Total Concurrent API Requests: 84000
-1500 Concurrent Requests with 10 Loop Count:
+7. 1500 Concurrent Requests with 10 Loop Count:
+- Average TPS for Total Samples: ~545
+- Total Concurrent API Requests: 90000
 
-Average TPS for Total Samples: ~545
-Total Concurrent API Requests: 90000
 During the test execution with 1400 concurrent requests, 324 requests experienced connection timeouts, resulting in an error rate of 0.39%.
 ## Test Result
 The performance test results indicate that the BookingAPI on HerokuApp can handle concurrent requests up to approximately 87,000 API calls with an error rate close to zero. The tests demonstrated the system's stability and ability to process a significant number of concurrent requests while maintaining acceptable response times and throughput.
@@ -68,7 +68,7 @@ Answer: This repository serves the purpose of documenting the performance testin
 
 #### Question 2: What is the BookingAPI on HerokuApp?
 
-Answer: The BookingAPI on HerokuApp is a test site designed to simulate a booking API. It provides endpoints for creating bookings, update or delete them, and related functionalities. It serves as a platform for testing and validating the performance of systems interacting with a booking API.
+Answer: The BookingAPI on HerokuApp is a test site designed to simulate a booking API. It provides endpoints for creating bookings, updating or deleting them, and related functionalities. It serves as a platform for testing and validating the performance of systems interacting with a booking API.
 
 #### Question 3: What is JMeter, and why was it used for performance testing?
 
